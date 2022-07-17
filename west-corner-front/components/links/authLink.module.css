@@ -1,0 +1,13 @@
+.authLink{
+	color:black;
+	font-family: Libre Baskerville, Gothic A1, sans-serif;
+  line-height: 1.6;
+  font-size: 18px;
+}
+
+.authLink:focus
+.authLink:visited
+.authLink:hover
+.authLink:active{
+	text-decoration:underline;
+}
