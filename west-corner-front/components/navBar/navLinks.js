@@ -4,7 +4,7 @@ import { AuthLink } from "../links/authLink";
 export const NavLinks = () => {
 	return (
 		<div className={styles.navLinksCountainer}>
-			<AuthLink>Connexion</AuthLink>
+			<AuthLink url="/posts/first-post">Connexion</AuthLink>
 		</div>
 	)
 }

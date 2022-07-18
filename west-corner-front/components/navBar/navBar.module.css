@@ -24,9 +24,13 @@
 	display: flex;
 	width: 30%;
 	justify-content: center;
+	align-items: center;
 	background: black;
 }
 
+.textLogo{
+	padding-top: 10px;
+}
 .navLinksCountainer{
 	display: flex;
 	flex: 1;

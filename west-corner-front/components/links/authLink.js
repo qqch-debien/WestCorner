@@ -1,10 +1,10 @@
 import styles from './authLink.module.css';
 import Link from "next/link";
 
-export const AuthLink = ({children}) => {
+export const AuthLink = ({children, url}) => {
 	return(
 		<div>
-			<Link href="/posts/first-post">
+			<Link href={url}>
 				<a className={styles.authLink}>{children}</a>
 			</Link>
 		</div>
