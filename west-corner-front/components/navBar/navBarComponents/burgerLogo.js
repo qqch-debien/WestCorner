@@ -1,5 +1,5 @@
 import Image from "next/image";
-import styles from "./navBar.module.css";
+import styles from "../navBar.module.css";
 
 export const BurgerLogo = () => {
 	return(

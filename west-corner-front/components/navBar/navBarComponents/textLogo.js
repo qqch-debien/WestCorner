@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "./navBar.module.css";
+import styles from "../navBar.module.css";
 
 export const TextLogo = () => {
 	return (
